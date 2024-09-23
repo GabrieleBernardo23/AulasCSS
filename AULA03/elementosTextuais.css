@@ -1,0 +1,40 @@
+/* 
+font-weight - similar ao negrito, porém não tem importância 
+
+line-height - altura da linha, aumenta o espaço das linhas 
+
+text-align - alinhamento de texto. left, right, justify e center
+
+text-shadow
+
+text-indent - dá um espaço no inicios dos paragrafos
+
+filter - Op
+*/
+
+span {
+    text-align: right;
+    /* font-weight: 100; */
+    font-weight: bold;
+    font-style: italic;
+    color: darkmagenta;
+}
+
+strong {
+    font-weight: 100;
+    text-align: center;    
+}
+
+article {
+    font-style: italic;
+    color: orange;
+    text-align: right;
+    
+}
+
+p {
+    text-align: justify;
+    color:darkturquoise ;
+    text-indent: 50px;
+    line-height: 250%;
+}

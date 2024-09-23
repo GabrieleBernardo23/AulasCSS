@@ -1,0 +1,13 @@
+div {
+    border: solid 5px;
+    overflow: auto; /* proibe que flutuem para fora da div */
+}
+
+img {
+    float: right;
+    height: 800px; 
+}
+
+figure {
+    float: left;
+}

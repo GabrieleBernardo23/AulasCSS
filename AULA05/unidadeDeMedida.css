@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+.box1 {
+    width: 100vw; /*largura*/
+    height: 10vh; /*altura*/
+    background-color: rgb(18, 226, 94);
+}
+
+.box2 {
+    /* em (relação ao pai) | rem - unidades de medidas  */
+    /* VH | VW | VMIN | VMAX */
+    /* border-radius: 25% = deixar as quinas redondas */
+    width: 100vw; /* Em relação a 1% da largura do viewport */
+    height: 80vh; /*Em relação a 1% da altura do viewport (tamanho da tela)*/
+    background-color: rgb(35, 184, 184);
+
+    /* 
+    1920 x 1200 - resolução da tela
+    width: 10vmax; = 190px
+    height: 10vmin; = 120px
+    */
+}
+
+.box3 {
+    width: 100vw;
+    height: 10vh;
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,10 @@
+body{
+    background-image: url('https://img.quizur.com/f/img654ed60de2d293.77599342.jpg?lastEdited=1699665425?o=capa');
+    background-size: cover;
+}
+
+img{
+    height: 600px;
+    width: 600px;
+    border-radius: 600px;
+}

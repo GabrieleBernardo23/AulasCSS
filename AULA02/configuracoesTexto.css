@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nerko+One&display=swap');
+
+h1:hover {
+    font-family: "Dancing Script", cursive;
+}
+
+/* fonte referente aos 3 links do head do html */
+
+h2:hover {
+    font-family: "Nerko One", cursive;
+}
+
+/* fonte do @ na linha 1 */
+
+/* ----------------------------------------------------------------------------------- */
+
+body {
+    /* background-color: blue; */
+    /* background-color: rgb(red, green, blue); */
+    /* background-color: rgba(115, 250, 99, alpha); */
+    /* background-color: rgba(99, 247, 250, 0.604) */
+    background-color: #038C4C;
+    color: #012E40;
+}

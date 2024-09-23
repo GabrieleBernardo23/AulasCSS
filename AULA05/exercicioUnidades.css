@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.navegacao {
+    text-align: right;
+}
+
+body {
+    background-color: rgb(245, 200, 207);
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(115, 115, 115, 0.709);
+    
+}
+
+img {
+    width: 250px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.botaoUrsoRosa {
+    background-color: palevioletred;
+    color: whitesmoke;
+    margin: 5px;
+    padding: 2px;
+
+}
+

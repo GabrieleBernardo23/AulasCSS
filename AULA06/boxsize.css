@@ -1,0 +1,24 @@
+/* div {
+    margin: 5px;
+    border: solid 1px black;
+    width: 250px;
+    height: 250px;
+} */
+
+
+#box1 {
+    border: dotted 5px rgb(232, 4, 4);
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box; /* desconsidera o padding e margin na hora de contabilizar os px */
+}
+#box2 {
+    margin: 5px;
+    border: dotted 5px rgb(34, 232, 4);
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    box-sizing: content-box;
+}
