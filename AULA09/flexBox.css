@@ -1,0 +1,72 @@
+.container {
+    border: solid 1px black;
+    background-color: rgb(202, 201, 201);
+    margin: 25% auto;
+    height: 900px;
+    width: 900px;
+
+    /* DISPLAYS --------------------------------------------------------------------------------------------- */
+    /* display: block = fica um em cima do outro, mas permite que altere altura e largura; */
+    /* display: inline = organiza em linha, mas não muda altura e largura; */
+    /* display: none = remove o elemento de tela; */
+    /* display: inline-block = em linha e permite alterar altura e largura ; */
+    display: flex;  /* muda o layout do Display */
+
+
+    flex-direction: row;  /* muda o comportamento/direção do container */
+    /* flex-direction: row-reverse;  */
+    /* flex-direction: column; - deixa em colunas */
+    /* flex-direction: column-reverse; - deixa em colunas invertidas */
+
+
+    direction: ltr; /* escrita da esquerda para a direita */
+    /* direction: rtl; - escrita da direita para a esquerda */
+
+    /* Faz a quebra dos elementos na linha ou coluna (flex-direction define o comportamento) */
+    flex-wrap: wrap; /* quebra a linha, assim não correndo o risco de ser cumprimido */
+    /* flex-wrap: nowrap; não permite a quebra, então cumprime o elemento */
+    /* flex-wrap: wrap-reverse; */
+
+    flex-flow: row nowrap;
+
+    /* 
+    Equivalente aos elementos anteriores
+     */
+     
+
+     /* alinhamento seguindo a orientação do main axis*/
+     justify-content: center; 
+     justify-content: flex-start; /* deixa os itens no inicio, levando em conta a orientação do container*/
+     justify-content: flex-end; /* deixa os itens no final, levando em conta a orientação do container*/
+     justify-content: space-around; /* da um espaço entre os itens, ignorando as laterais*/
+     justify-content: space-between; /* deixa um item no inicio e outro item no final */
+     justify-content: space-evenly; /* da um espaço igualado entre os itens, incluindo as laterais */
+     justify-content: end; /* deixa os itens no final, independente da orientação da margem*/
+     justify-content: start; /* deixa os itens no inicio, independente da orientação da margem*/
+
+
+     /* alinhamento seguindo a orientação do cross axis*/
+     align-items: center;
+     align-items: flex-start;
+     align-items: flex-end;
+}
+
+.cx1 {
+    background-color: aquamarine;
+}
+
+.cx2 {
+    background-color: cadetblue;
+}
+
+.cx3 {
+    background-color: cornflowerblue;
+}
+
+.caixa {
+    border: solid 1px black;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+
+}

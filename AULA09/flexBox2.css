@@ -1,0 +1,41 @@
+.container {
+    border: solid 1px black;
+    background-color: rgb(202, 201, 201);
+    margin: 25% auto;
+    height: 900px;
+    width: 900px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.cx1 {
+    background-color: aquamarine;
+    /* order: -3; dá para deixar a ordem negativa */
+    /* flex-grow: ; aumenta em tamanho em detrimento aos outros */
+    /* flex-shrink: ; diminui em tamanho em detrimento aos outros */
+    /* flex-basis: ; define o tamanho padrão da caixa (em % em detrimento do valor do container) antes de distribuir valor (escrever algo) */
+}
+.cx2 {
+    background-color: cadetblue;
+    order: 2;
+    /* flex-grow: ;
+    flex-shrink: ;
+    flex-basis: ; */
+}
+
+.cx3 {
+    background-color: cornflowerblue;
+    order: 1;
+    /* flex-grow: ;
+    flex-shrink: ;
+    flex-basis: ; */
+    align-self: flex-end; /* modifica expecificamente este */
+}
+
+.caixa {
+    border: solid 1px black;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}

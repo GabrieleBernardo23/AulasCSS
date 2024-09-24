@@ -1,0 +1,12 @@
+@media (orientation: landscape) /*Deixar a tela na paisagem*/ {
+    h1 {
+        color: hotpink;
+    }
+    p {
+        display: none;
+    }
+    div {    /* deixar a imagem no centro*/
+     display: flex;
+     justify-content: center;
+    }
+} 

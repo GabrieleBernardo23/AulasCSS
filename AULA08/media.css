@@ -15,7 +15,7 @@ media speech
 } 
 este é o modelo base do media*/
 
-@media screen and (max-width: 260px) {
+    @media screen and (max-width: 320px) {
 /* enquanto a tela não for maior que 320px  */
     h1 {
         color: yellow;
@@ -46,3 +46,18 @@ mínimo de 769px e máximo de 1024px, para laptops
     }
 
 }
+
+@media (min-width: 1024px) {
+    /* acima de 1024px a cor muda */
+    h4 {
+        color: fuchsia;
+    }
+}
+
+@media ( min-width: 1025px) and (max-width: 1201px){
+h1 {
+    display: none;
+}
+}
+
+/*  , = ou  isso é situacional */
