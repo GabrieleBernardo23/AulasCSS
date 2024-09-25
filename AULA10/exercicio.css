@@ -1,0 +1,56 @@
+.container {
+    height: 700px;
+    width: 800px;
+    margin: 0 auto;
+    background-color: silver;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-areas: 
+    "header header header header header header header"
+    "header header header header header header header"
+    "area1 area1 area2 area2 area2 area3 area3"
+    "main main main main main main main"
+    "main main main main main main main"
+    "main main main main main main main"
+    "main main main main main main main"
+    "area4 area4 area4 area4 area5 area5 area5"
+    "footer footer footer footer footer footer footer"
+    "footer footer footer footer footer footer footer"
+    ;
+}
+
+.box1 {
+    grid-area: header;
+    background-color: rgb(218, 232, 15);
+}
+
+.box2 {
+    grid-area: area1;
+    background-color: rgb(71, 192, 37);
+}
+.box3 {
+    grid-area: area2;
+    background-color: rgb(0, 0, 0);
+}
+.box4 {
+    grid-area: area3;
+    background-color: rgb(64, 49, 200);
+}
+.box5 {
+    grid-area: main;
+    background-color: rgb(224, 137, 23);
+}
+.box6 {
+    grid-area: area4;
+    background-color: rgb(128, 91, 196);
+}
+.box7 {
+    grid-area: area5;
+    background-color: rgb(211, 127, 242);
+}
+.box8 {
+    grid-area: footer;
+    background-color: rgb(81, 237, 185);
+}
+
